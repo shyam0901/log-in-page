@@ -64,7 +64,83 @@ nav{
     width: 35px;
     float: right;
 }
-
-
-
+.content{
+    width: 300px;
+    position: absolute;
+    top: 90px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: 2;
+}
+.social-icons img{
+    width: 18px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+.search-box{
+    margin: 20px;
+    border: 1px solid #b7e7f6;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.0));
+}
+.search-box input{
+    width: 100%;
+    padding: 7px 15px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    background: transparent;
+    color: #b7e7f6;
+}
+::placeholder{
+    color: #b7e7f6;
+}
+.search-box img{
+    width: 30px;
+    margin: 5px 10px;
+}
+#clouds{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+#airplane{
+    width: 200px;
+    position: absolute;
+    top: 180px;
+    left: 250px;
+    z-index: 2;
+}
+#hotairballoon{
+    height: 400px;
+    width: 800px;
+    position: absolute;
+    bottom: 200px;
+    left: 50%;
+    transform: translateX(-40%);
+}
+.balloon1{
+    width: 150px;
+    opacity: 0.4;
+}
+.balloon2{
+    width: 350px;
+}
+.balloon3{
+    width: 180px;
+    opacity: 0.5;
+}
+#myImg{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
 
